@@ -13,7 +13,7 @@ def link
   puts phrase
 end
 
-def any_phrase (phrase)
-  puts #{phrase}
+def any_phrase (phrase = "Do A Barrel Roll!")
+  puts phrase
 end
-any_phrase("Do A Barrel Roll!\n")
+any_phrase(phrase)
